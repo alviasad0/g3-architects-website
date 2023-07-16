@@ -15,7 +15,7 @@ font-family: 'Work Sans', sans-serif; */
 .main-header {
     display: flex;
     justify-content: space-around;
-    /* gap: 50px; */
+   
     align-items: center;
     padding-top: 50px;
 }
@@ -66,8 +66,105 @@ font-family: 'Work Sans', sans-serif; */
 }
 .coverpage-img{
     margin-left: 240px;
-    height: 70;
+    /* height: 70; */
     margin-top: 0;
-    margin-bottom: 45px
-    /* padding-top: 50px; */
+    margin-bottom: 45px;
+    /* width: 100%; */
+    
+}
+/* ############# responsive media querey ############ */
+
+/* ############## mobile devices ########## */
+@media screen and (max-width:576px) {
+  
+  
+   .cover-page-paragraph{
+    padding: 20px;
+   }
+   .coverpage-img{
+    width: 100%;
+    margin-left: 0px;
+   }
+   .main-header{
+    flex-direction: column;
+   }
+   .navber-items ul{
+   gap: 30px;
+  
+   }
+   .main-title{
+    font-size: 50px;
+   }
+   .navber-items li{
+    font-size: 16px;
+   margin-top: 10px;
+   }
+   .header-logo{
+    font-size: 36px;
+   }
+}
+
+/* ########### tablet or medium devices ############## */
+
+@media screen and (min-width:577px ) and (max-width:960px) {
+        
+        .overall-header{
+            width: 700px;
+        }
+       .cover-page-paragraph{
+        padding:30px;
+        
+       }
+       .coverpage-img{
+        width: 100%;
+        margin-left: 0px;
+       }
+       .main-header{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+       }
+       .navber-items ul{
+       gap: 50px;
+      
+       }
+       .main-title{
+        font-size: 55px;
+       }
+       .navber-items li{
+        font-size: 25px;
+       margin-top: 25px;
+       }
+       .header-logo{
+        font-size: 45px;
+       }
+}
+/* ############### header end ################# */
+
+
+
+
+
+
+/* ############first-section styling ############### */
+.first-section-main{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    align-items: center;
+    padding: 80px;
+}
+.left-side-imges{
+    display: flex;
+    gap: 10px;
+}
+.left-img{
+    display: grid;
+    grid-template-rows: repeat(2,345px);
+
+    width: 345px;
+    height: 345px;
+}
+.right-side-main-content{
+    width: 540px;
 }
