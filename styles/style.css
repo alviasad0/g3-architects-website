@@ -6,7 +6,11 @@ font-family: 'Work Sans', sans-serif; */
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;;
+    
 }
+
+/* 1rem=16px */
+
 .overall-header{
     background-color: rgba(255, 143, 14, 0.10);
     
@@ -93,7 +97,7 @@ main{
     gap: 1.5rem;
     width: 600px;
 }
-right-side-main-heading{
+.right-side-main-heading{
   
     border-radius: 0.5rem;
     
@@ -177,6 +181,45 @@ right-side-main-heading{
     font-size: 4.062rem;
 }
 
+
+/* ############### some-fact-section ################ */
+.some-fact-main-title{
+    font-size: 2.8125rem;
+}
+.some-fact-paragraph{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 33.75rem;
+}
+.some-fact-card-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    
+}
+.card{
+    border: 1px solid #FF900E;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+
+}
+.card img{
+    padding-top:2.80rem;
+}
+.card-heading{
+    font-size: 2.8125rem;
+    color: #424242;
+}
+.card-title{
+    font-size:1.25rem;
+    color: #727272;
+    padding: 0.5rem;
+}
 /* ############# responsive media querey ############ */
 
 /* ############## mobile devices ########## */
